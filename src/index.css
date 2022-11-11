@@ -1,10 +1,140 @@
 body {
   margin: 0;
-  font-family: 'Red Rose';
+  font-family: RedRose;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: 'Red Rose';
+  font-family: RedRose;
+}
+
+/* NavBar*/
+.header{
+  margin-top: 10px;
+}
+Nav{
+  color: #1d1c1c;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0px 20px;
+}
+.d-flex button{
+  background-color: #A02279;
+  border: 1px solid #A02279;
+  font-weight: 400;
+  font-size: 14px;
+  width: 150px;
+  height: 40px;
+}
+.d-flex button:hover{
+  background-color: #A02279;
+  border: 1px solid #A02279;
+}
+/* header*/
+.row{
+  padding-top: 100px;
+  padding-bottom: 50px; 
+}
+col{
+  width: 550px;
+}
+col img{
+  width: 100%
+}
+.header-content{
+  max-width: 420px;
+  margin-top: 40px;
+  margin-left: 18px;
+}
+.header-content h2{
+  font-weight: 600;
+  font-size: 50x;
+  margin: 40px 0px;
+}
+.header-content p{
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 25px;
+  color: #434343;
+  ;
+}
+span{
+  color: #A02279;;
+}
+.search{
+  border-left: none;
+}
+span button{
+  border: 0;
+  background-color: #A02279;
+  color: #fff;
+  border-radius: 10px;
+}
+#basic-text1{
+  background-color: #A02279;
+}
+
+/*mini fotter*/
+.mini-footer{
+  background-color: #A02279;
+  height: 40px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* About */
+.about-content{
+  padding-top: 40px;
+}
+.about-content h1{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.about-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-col{
+  border: 1px solid #D7D7D7;
+  border-radius: 15px;
+  width: 250px;
+  height: 320px;
+  text-align: center;
+}
+.img-abt{
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+}
+.about-col-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+}
+.FaStar{
+  color: #A02279;
+}
+
+/*media query*/
+@media screen and (max-width:550px) {
+  .header-img{
+    margin-top: 50px;
+    width: 300px
+  }
+  .row{
+    padding-top: 30px;
+  }
+  .mini-footer img{
+    width: 70px;
+  }
+
 }
